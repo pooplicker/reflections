@@ -2,3 +2,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 when you create your first repository it creates a .git file which is a hidden file and can be viewed b pressing CTRL + H, this then allows us to make commits 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area creates the basis on the first commit and we can decide which files we want to change for the commit

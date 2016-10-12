@@ -1,0 +1,4 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+
+when you create your first repository it creates a .git file which is a hidden file and can be viewed b pressing CTRL + H, this then allows us to make commits 

@@ -5,3 +5,7 @@ if something happens to my computer containing my local commits i will lose all 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 you are in control in what commits are relevant to your project and avoids cluttering of commits
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+fork is when you clone a repository on GitHub onto your own GitHub account and the following changes you make go to your repository and not the original. Clones is when you clone a repository to your local repository on your computer. Branches is when a commit splits from the master branch 

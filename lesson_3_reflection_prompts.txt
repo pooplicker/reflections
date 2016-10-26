@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+if something happens to my computer containing my local commits i will lose all my progress, but if i upload it to the Git servers it can be accessed anywhere

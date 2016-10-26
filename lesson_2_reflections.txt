@@ -5,4 +5,24 @@ when you create your first repository it creates a .git file which is a hidden f
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-the staging area creates the basis on the first commit and we can decide which files we want to change for the commit
+the staging area creates the basis on the first commit and we can decide which files we want to change for the commit and what to remain unchanged
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+when we make a change to a file and save it, git will tell us the file is changed and we can add it with git add to the staging area, and when we type git status again it will tell us it is in the staging area then we can git commit if we want to, to the git log
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+if you want to experiment with your code but no change the main code, you can copy the code and place it into a branch and experiment, alternatively if you are making a game but wanted different stages of difficulty branches can be useful, branches can be useful for organising since you can have seperate branches for different outcomes like a bug fix branch or a feature branch
+
+How do the diagrams help you visualize the branch structure?
+
+diagrams allows me to easily go back to the parent class of the master and see at which point seperate branches was formed and to see which commits were not implemented
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+when we merge two branches it merges the commits and we are able to implement the improvements to the code, the diagram helps us map out the parent commit where both branches split and see which previous commits both branches contain and accomadate appropriately 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+automatic merging of Git can be handy when you have large programs and and Git can add the lines which have been added to the exisitng code and can highlight and conflicts which can save time. Git cannot distinguish conflicting code and the user has to make sure what code to remove and what to keep

@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 if something happens to my computer containing my local commits i will lose all my progress, but if i upload it to the Git servers it can be accessed anywhere
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+you are in control in what commits are relevant to your project and avoids cluttering of commits

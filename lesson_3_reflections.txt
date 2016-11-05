@@ -13,3 +13,11 @@ fork is when you clone a repository on GitHub onto your own GitHub account and t
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 if anyone adds to your file on Github and then you can pull the changes from Git and check the changes with your remote on your local computer, later on you can update your remote origin/master if you are happy with the changes
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+you could use email and send each other code but this can be awkward copying long pieces of code and sending each other also there is no functionality like git diff to see the changed made, there is really nothing easier than Git and Github since it was specifically made to share and work on code together
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A separate branch can be useful when you want to add a new feature in you application but don't want to change the master, you can experiment with it and later on if you decide it is okay you can merge with the master branch. 
